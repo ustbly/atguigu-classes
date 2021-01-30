@@ -4,7 +4,7 @@ package com.atguigu.bigdata.test;
  * @Author YueLin
  * @Date 2020/11/21
  */
-public class Java02_Var {
+public class Java02_Var{
     public static void main(String[] args) {
 //        String name = "zhangsan";
         String name;
