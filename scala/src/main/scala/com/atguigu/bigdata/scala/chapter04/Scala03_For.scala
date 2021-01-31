@@ -19,6 +19,8 @@ object Scala03_For {
      * 1) 这种方式和前面的区别在于 i 是从1 到 3-1
      * 2) 前闭合后开的范围,和java的arr.length() 类似
      */
+    // 1. until(3) == 1 until 3
+    // 2. 0.to(5) == 0 to 5
     for(i <- 1 until 3) {
       print(i + " ")
     }
