@@ -15,19 +15,19 @@ object Scala04_FunctionStrengthen {
 
     //2.默认参数
     //如果希望函数中的某一个参数使用默认值，那么可以在声明时直接赋初值
-    def test1(name:String,age : Int = 20): Unit = {
+    def test1(name: String, age: Int = 20): Unit = {
       println(name + "--" + age)
     }
 
     test1("林跃")
-    test1("林跃",22)
+    test1("林跃", 22)
 
-    def test2(name1 : String = "zhangsan",name2:String): Unit = {
+    def test2(name1: String = "zhangsan", name2: String): Unit = {
       println(name1 + "--" + name2)
     }
     //调用函数时，参数匹配规则是从前到后，从左到右
-    test2("wangwu","lisi")
+    test2("wangwu", "lisi")
     //带名参数
-    test2(name1 = "王五","lisi")
+    test2(name1 = "王五", "lisi")
   }
 }
