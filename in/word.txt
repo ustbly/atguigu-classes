@@ -1,0 +1,6 @@
+Hello Scala
+Hello World
+Scala Hbase
+Hadoop Hive
+Hive Hbase
+World Hive
