@@ -7,13 +7,14 @@ package com.atguigu.bigdata.test;
  */
 public class Java12_ObjectEq {
     public static void main(String[] args) {
-        User14 user1 = new User14();
-        User14 user2 = new User14();
+        User12 user1 = new User12();
+        User12 user2 = new User12();
         System.out.println(user1.equals(null));
     }
 }
 
-class User14 {
+
+class User12 {
 
     private int id;
     private String name;
@@ -26,8 +27,8 @@ class User14 {
 
     @Override
     public boolean equals(Object o) {
-        if (o instanceof User14) {
-            User14 otherUser = (User14) o;
+        if (o instanceof User12) {
+            User12 otherUser = (User12) o;
             return this.id == otherUser.id;
         } else {
             return false;
