@@ -1,6 +1,6 @@
 package chapter13
 
-object Scala01_Class {
+object Scala02_Class1 {
   def main(args: Array[String]): Unit = {
 
     // List<User1> list=new ArrayList<User1>();
